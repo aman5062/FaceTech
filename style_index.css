@@ -1,0 +1,102 @@
+/* *{
+    color: white;
+    background-color: rgb(126, 175, 240);
+} */
+#head{
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#form{
+    border: 0.01rem solid white;
+    box-shadow: 10px 10px 20px 0px #888;
+    margin-top: 5%;
+    height: auto;
+    width: 35%;
+   background-color: transparent;
+}
+.txtbox{
+    margin-right: 0.1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid black;
+    transform: none;
+    outline: none;
+    color: black;
+}
+#under_head{
+    color: grey;
+    font-size: 2rem;
+}
+/* .submitbox{
+    background-color: white;
+} */
+input{
+    margin-bottom: 0.3rem;
+    display: block;
+    transition:.10s ease all;
+
+}
+button{
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+#count{
+    color: red;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label {
+    position: absolute;
+    pointer-events: none;
+    left: 170px; /* Change this value to 10px */
+    top: 10px;
+    font-size: 14px;
+    color: black;
+    transition: all 0.2s ease-out;
+    opacity: 1; /* Set the initial opacity to 1 (fully visible) */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.txtbox:focus + label {
+    transform: translateY(-100%);
+    font-size: 10px;
+    opacity: 0; /* Set the opacity to 0 (fully transparent) on focus */
+}
+.txtbox:not(:focus) + label {
+    transform: none;
+    font-size: 14px;
+    opacity: 1; /* Set the opacity back to 1 (fully visible) when not focused */
+}
+.pass:focus + label {
+    transform: translateY(-100%);
+    font-size: 10px;
+    opacity: 0; /* Set the opacity to 0 (fully transparent) on focus */
+}
+.pass:not(:focus) + label {
+    transform: none;
+    font-size: 14px;
+    opacity: 1; /* Set the opacity back to 1 (fully visible) when not focused */
+}
+/* Apply these styles for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    label {
+        left: 50px;
+    }
+    input[type='text'], [type='password'] {
+        width: 70%;
+    }
+}
+input[type='text'], input[type='password'] {
+    margin-bottom: 0.3rem;
+    display: block;
+}

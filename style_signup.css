@@ -1,0 +1,54 @@
+/* *{
+    color: white;
+    background-color: rgb(126, 175, 240);
+} */
+#head{
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#form{
+    border: 0.01rem solid white;
+    box-shadow: 10px 10px 20px 0px #888;
+    margin-top: 1%;
+    height: auto;
+    width: 35%;
+   background-color: transparent;
+}
+.txtbox{
+    margin-right: 0.1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid black;
+    transform: none;
+    outline: none;
+    color: black;
+}
+#under_head{
+    color: grey;
+    font-size: 2rem;
+}
+.submitbox{
+    background-color: black;
+}
+input{
+    margin-bottom: 0.3rem;
+    display: block;
+    border: none;
+    border-bottom: 1px solid !important;
+    transition:.10s ease all ;
+    outline: none;
+
+}
+button{
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+#count{
+    color: red;
+}
+#login_page{
+    position: relative !important;
+    float: right !important;
+}

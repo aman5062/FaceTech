@@ -1,0 +1,96 @@
+form{
+    position: relative;
+    float: right;
+    top: -70;
+}
+#blessing{
+    text-transform: capitalize;
+    color: white;
+    font-size: x-large;
+    position: relative;
+    float: left;
+    margin: 1rem;
+    background-color: black;
+}
+header{
+    background-color: black;
+    height: 10%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+}
+#logout{
+    position: relative;
+    top: -45px;
+    right: 20px;
+    background-color: black !important;
+}
+#logout input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: large;
+}
+#logout input:hover{
+    color: #888;
+    transition: 1s ease all;
+}
+p {
+    position: relative;
+    float: left;
+    background-color: rgb(171, 217, 201);
+  }
+  
+  main {
+    height: 80%;
+    word-break:normal;
+    background-color: aquamarine;
+    
+  }
+  #blog{
+    margin-left: 5px;
+    background-color: rgb(171, 217, 201);
+    padding: 1rem;
+    width: 20%;
+    margin-top: 2px;
+    
+  }
+
+  #inputtext {
+    width: 80% !important;
+    height: 100%;
+    padding:.3em.6em!important ;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px black solid;
+    text-overflow: clip;
+    outline: none;
+  }
+  
+  #message {
+   display: flex;
+   flex-direction: row;
+   /* align-items: center; */
+   background-color: aquamarine;
+  }
+
+  #formbox{
+    float: left;
+    top: -70;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+#inputtext, #submitbtn {
+    margin: 2px;
+  }
+#sender{
+    width: 10%;
+    height: 100%
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}

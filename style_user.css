@@ -1,0 +1,75 @@
+form{
+    position: relative;
+    float: right;
+    top: -70;
+}
+#blessing{
+    text-transform: capitalize;
+    color: white;
+    font-size: x-large;
+    position: relative;
+    float: left;
+    margin: 1rem;
+}
+header{
+    background-color: black;
+    height: 10%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#logout{
+    position: relative;
+    top: -45px;
+    right: 20px;
+}
+#logout input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: large;
+}
+#logout input:hover{
+    color: #888;
+    transition: 1s ease all;
+}
+main {
+    width: 50%;
+    display: flex;
+    margin-top: 15rem;
+}
+main div {
+    flex: 1;
+    margin: 20px;
+    height: 15rem;
+    box-shadow: 10px 10px 20px 0px #888;
+}
+main div div{
+    text-align: center ;
+    line-height: 6em!important;
+    font-size: 2rem;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main div div:hover{
+    transform: rotate(360deg);
+    background-color: #888;
+    transition: 1.5s ease all;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    #blessing{
+        font-size: large;
+        transition: .5s ease all;
+    }
+    #logout input{
+        font-size: small;
+        transition: .5s ease all;
+    }
+    main{
+        width: 80%;
+    }
+}
